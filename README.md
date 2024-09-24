@@ -54,3 +54,5 @@ The client will display the processed string received from the server.
 ### Input String Validation
 The client prompts for input and ensures that the user input is taken correctly. Make sure the string does not exceed 80 characters.
 
+### Exception Handling
+The program includes exception handling to manage common input/output errors and ensures that it runs smoothly even with unexpected inputs.
