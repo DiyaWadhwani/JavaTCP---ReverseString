@@ -21,7 +21,13 @@ git clone <repository-url>
 cd JavaTCP-ReverseString
 ```
 
-### 2. Start the Server
+### 2. Compile the classes
+
+```bash
+javac Client.java Server.java
+```
+
+### 3. Start the Server
 
 ```bash
 java Server <port>
@@ -33,7 +39,7 @@ Example:
 java Server 32000
 ```
 
-### 3. Start the Client
+### 4. Start the Client
 
 ```bash
 java Client <server IP> <port>
@@ -45,14 +51,18 @@ Example:
 java Client 127.0.0.1 32000
 ```
 
-### 4. Enter Your Text
+### 5. Enter Your Text
+
 When prompted, enter a string (up to 80 characters) to be processed by the server.
 
-### 5. View the Response
+### 6. View the Response
+
 The client will display the processed string received from the server.
 
 ### Input String Validation
+
 The client prompts for input and ensures that the user input is taken correctly. Make sure the string does not exceed 80 characters.
 
 ### Exception Handling
+
 The program includes exception handling to manage common input/output errors and ensures that it runs smoothly even with unexpected inputs.
